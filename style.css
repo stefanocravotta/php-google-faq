@@ -1,3 +1,99 @@
-.red{
-    color: red;
+*{
+    font-family: "Product Sans",Arial,sans-serif;
 }
+
+header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.top{
+    padding: 20px;
+    height: 65%;
+}
+.top img{
+    width: 74px;
+    margin-right: 3px;
+}
+.top a{
+    text-decoration: none;
+    margin-top: 5px;
+    color: #5F6368;
+}
+.top .user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #3267D6;
+    color: white;
+    margin-left: 15px;
+    font-size: .8rem;
+}
+nav{
+    height: 35%;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #5F6368;
+    font-size: 15px;
+    margin: 0 15px;
+    height: 100%;
+}
+nav a.active{
+    color: #3267D6;
+    border-bottom: 2px solid #3267D6;
+}
+
+main{
+    margin-top: 130px;
+}
+
+.sc-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2{
+    margin-bottom: 15px;
+    color: #3c4043;
+    font-weight: 500;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 30px 0;
+    color: rgba(0,0,0,.87);
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer{
+    background-color: #f5f5f5;
+    height: 40px;
+    padding: 10px 0;
+}
+
+footer a{
+    font-size: 11px;
+    font-weight: 300;
+    color: rgba(61,61,61,.8);
+}
+
+footer select{
+    min-width: 200px;
+    font-size: 11px;
+    color: rgba(0,0,0,.87);
+}
+
